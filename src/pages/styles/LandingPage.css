@@ -1,0 +1,48 @@
+
+.landing {
+  background-image: url('/images/landing-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.landing__overlay {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.landing__title {
+  font-size: 3rem;
+  color: #2d572c;
+  margin-bottom: 20px;
+}
+
+.landing__description {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.landing__btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.landing__btn:hover {
+  background-color: #239329;
+}
