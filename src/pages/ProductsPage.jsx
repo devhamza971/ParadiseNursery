@@ -15,7 +15,7 @@ function ProductsPage() {
 
   const products = [
     // Flower Plants
-    { id: 1, name: 'Pink Rose', price: 15, categories: ['Flower Plants', 'Rare Plants'], image: '/images/pink_rose.jpg' },
+    { id: 1, name: 'Pink Rose', price: 15, categories: ['Flower Plants', 'Rare Plants'], image: '/ParadiseNursery/images/pink_rose.jpg' },
     { id: 2, name: 'Red Tulip', price: 12, categories: ['Flower Plants'], image: '/images/red_tulip.jpg' },
     { id: 3, name: 'White Lily', price: 18, categories: ['Flower Plants'], image: '/images/white_lily.jpg' },
     { id: 4, name: 'Orchid', price: 25, categories: ['Flower Plants', 'Rare Plants'], image: '/images/orchid.jpg' },
