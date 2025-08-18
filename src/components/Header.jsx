@@ -1,5 +1,4 @@
-
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
 import "./Header.css";
@@ -8,7 +7,6 @@ export default function Header() {
   const { cart } = useContext(CartContext);
   const location = useLocation();
 
-  // Total cart items
   const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
@@ -35,7 +33,7 @@ export default function Header() {
         )}
       </nav>
 
-      {/* Professional Cart Icon with Badge */}
+      {/* Cart Icon with Badge */}
       <div className="header__cart">
         <Link to="/cart" className="cart-link">
           <svg
