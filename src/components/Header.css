@@ -28,7 +28,6 @@
   position: relative;
 }
 
-/* Cart Icon Styling */
 .cart-link {
   position: relative;
   display: inline-flex;
@@ -44,10 +43,9 @@
 
 .cart-link:hover .cart-icon {
   transform: scale(1.1);
-  color: #ffeb3b; /* yellow highlight */
+  color: #ffeb3b;
 }
 
-/* Badge Styling */
 .cart-badge {
   position: absolute;
   top: -6px;
