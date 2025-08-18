@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import LandingPage from "./pages/LandingPage";
@@ -19,9 +18,7 @@ function App() {
           element={
             <>
               <Header />
-              <div className="page-layout">
-                <ProductsPage />
-              </div>
+              <ProductsPage />
             </>
           }
         />
@@ -30,9 +27,7 @@ function App() {
           element={
             <>
               <Header />
-              <div className="page-layout">
-                <CartPage />
-              </div>
+              <CartPage />
             </>
           }
         />
